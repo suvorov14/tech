@@ -1,0 +1,64 @@
+.d {
+    background: #fff;
+    padding: 30px 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Arial";
+    font-size: 35px;
+    color: #2196F3;
+    border: solid #2196F3;
+    border-radius: 10px;
+    margin: 0px;
+}
+button {
+    background-color: #fff;
+    border: solid #2196F3;
+    border-radius: 5px;
+    color: #2196F3;
+    padding: 10px 15px;
+    font-size: 17px;
+   
+}
+.b {
+    border: solid #2196F3;
+    border-radius: 10px;
+    margin: 10px 0px;
+    padding: 30px 30px;
+    width: 300px;
+    height: 37em;
+    align-items: center;
+   
+}
+.p {
+   border: solid #2196F3;
+    border-radius: 10px;
+    margin: 10px 0px;
+    padding: 30px 30px;
+    width: 300px;
+    height: 37em;
+    align-items: center;
+    position: absolute;
+    top: 124px;
+    left: 400px;
+}
+.h {
+   border: solid #2196F3;
+    border-radius: 10px;
+    margin: 10px 0px;
+    padding: 30px 30px;
+    width: 300px;
+    height: 37em;
+    align-items: center;
+    position: absolute;
+    top: 124px;
+    left: 795px;
+}
+body {
+    font-family: "Arial";
+}
+p {
+    font-weight: bold;
+    font-size: 22px;
+}
