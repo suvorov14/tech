@@ -1,0 +1,43 @@
+.d {
+    background: #fff;
+    padding: 30px 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Arial";
+    font-size: 35px;
+    color: #2196F3;
+    border: solid #2196F3;
+    border-radius: 10px;
+    margin: 0px;
+}
+button {
+    background-color: #fff;
+    border: solid #2196F3;
+    border-radius: 5px;
+    color: #2196F3;
+    padding: 10px 15px;
+    font-size: 17px;
+   
+}
+
+.e {
+    border: solid #2196F3;
+    border-radius: 10px;
+    width: 900px;
+    left: 300px;
+    margin: 50px;
+    padding: 20px;
+}
+body {
+    font-family: "Arial";
+}
+h1 {
+    font-size: 25px;
+    color: #2196F3;
+}
+
+p {
+    color: #505050;
+}

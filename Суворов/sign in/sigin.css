@@ -1,0 +1,33 @@
+body {
+    font-family: "Arial";
+    text-align: center;
+
+}
+
+div {
+    border: solid #2196F3;
+    border-radius: 10px;
+    margin: 250px;
+    padding: 30px;
+    width: 400px;
+    color: #2196F3;
+}
+
+p {
+    font-size: 25px;
+}
+
+ button {
+    background-color: #fff;
+    border: solid #2196F3;
+    border-radius: 5px;
+    color: #2196F3;
+    padding: 10px 15px;
+    font-size: 17px;
+ }    
+.e {
+    border: solid #2196F3;
+    border-width: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
