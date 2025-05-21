@@ -99,7 +99,10 @@ while running:
         pl_x -= 10
     if keys[pygame.K_RIGHT]:
         pl_x += 10
-    'if keys[pygame.K_UP]:        pl_y -= 10    if keys[pygame.K_DOWN]:            pl_y += 10'
+    '''if keys[pygame.K_UP]:
+        pl_y -= 10    
+    if keys[pygame.K_DOWN]:
+        pl_y += 10'''
 
     if pl_x == 0:
         pl_x = 50
@@ -110,11 +113,15 @@ while running:
         ball_speed_x = -ball_speed_x
     if ball_y == 0 or ball_y == 800:
         ball_speed_y = -ball_speed_y
+    
+    if ball_y == pl_y and ball_x == pl_x:
+        ball_speed_y = -ball_speed_y
+        ball_speed_x = -ball_speed_x
 
     ball_x += ball_speed_x
     ball_y += ball_speed_y
 
-    if ball_y - 75 == pl_y and ball_x == pl_x:
+    if ball_x == pl_x or ball_x == pl_x + 37.5 or ball_x == pl_x - 37.5 or ball_x == pl_x + 18.75 or ball_x == pl_x - 18.75 and ball_y - 75 == pl_y: 
         ball_speed_y = -ball_speed_y
 
     if ball.colliderect(paddle):
@@ -125,4 +132,3 @@ while running:
     draw_objects()
     clock.tick(60)
     pygame.display.flip()
-
